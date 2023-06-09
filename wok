@@ -4,12 +4,12 @@ meme_dict = {
             "AWOK": "Semacam kata 'LOL' versi Indonesia"
             }
 
-for i in range(5):
+for i in range(3):
     word = input("Ketik kata yang tidak kamu mengerti (gunakan huruf kapital semua):")
     
     if word in meme_dict.keys()=
         print(meme_dict[word])
     else
-        print('a')
+        print('maaf, kata tersebut tidak ada di kamus ini')
     
     
